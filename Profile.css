@@ -1,0 +1,95 @@
+/* src/Profile.css */
+
+.profile-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 20px auto;
+    color: white;
+  }
+  
+  .profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-container label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .profile-container input,
+  .profile-container select,
+  .profile-container textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .profile-container input::placeholder,
+  .profile-container textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .profile-container select {
+    color: black; /* Set text color for select element */
+  }
+  
+  .profile-container select option {
+    color: black; /* Set text color for options */
+  }
+  
+  .profile-container input:focus,
+  .profile-container select:focus,
+  .profile-container textarea:focus {
+    border-color: #61dafb;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .profile-container textarea {
+    resize: vertical;
+  }
+  
+  .profile-container .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .profile-container button {
+    padding: 15px;
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    flex: 1;
+    margin: 5px;
+  }
+  
+  .profile-container button:hover {
+    background-color: #21a1f1;
+    transform: translateY(-2px);
+  }
+  
+  .profile-container button:active {
+    background-color: #1b8bbd;
+    transform: translateY(0);
+  }
+  

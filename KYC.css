@@ -1,0 +1,124 @@
+/* src/KYC.css */
+
+.kyc-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 20px auto;
+    color: white;
+  }
+  
+  .kyc-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .kyc-container form,
+  .kyc-container .kyc-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .kyc-container label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .kyc-container input,
+  .kyc-container select,
+  .kyc-container button {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .kyc-container input::placeholder,
+  .kyc-container textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .kyc-container select {
+    color: black; /* Set text color for select element */
+  }
+  
+  .kyc-container select option {
+    color: black; /* Set text color for options */
+  }
+  
+  .kyc-container input:focus,
+  .kyc-container select:focus,
+  .kyc-container button:focus {
+    border-color: #61dafb;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .kyc-container .kyc-status {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .kyc-container .kyc-id-photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .kyc-container .kyc-id-photos img {
+    max-width: 45%;
+    max-height: 200px;
+    margin: 10px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+  }
+  
+  .kyc-container .kyc-camera {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .kyc-container .kyc-camera .camera-preview {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .kyc-container .kyc-camera .camera-preview video {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+  }
+  
+  .kyc-container button {
+    padding: 15px;
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+  }
+  
+  .kyc-container button:hover {
+    background-color: #21a1f1;
+    transform: translateY(-2px);
+  }
+  
+  .kyc-container button:active {
+    background-color: #1b8bbd;
+    transform: translateY(0);
+  }
+  

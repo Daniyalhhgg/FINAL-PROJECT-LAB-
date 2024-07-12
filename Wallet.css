@@ -1,0 +1,81 @@
+/* Wallet Container */
+.wallet-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+  }
+  
+  /* Balance Text */
+  .wallet-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue color for balance text */
+  }
+  
+  /* Address Section */
+  .address-section {
+    margin-bottom: 15px;
+  }
+  
+  .address-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6c757d; /* Dark grey color for labels */
+  }
+  
+  .address-section input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .address-section button {
+    width: 80px;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #28a745; /* Green background for button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .address-section button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Send Tokens Section */
+  .send-tokens-section {
+    margin-top: 20px;
+  }
+  
+  .send-tokens-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6c757d; /* Dark grey color for labels */
+  }
+  
+  .send-tokens-section input[type="text"],
+  .send-tokens-section input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .send-tokens-section button {
+    padding: 8px 16px;
+    background-color: #dc3545; /* Red background for button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-tokens-section button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  

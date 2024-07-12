@@ -1,0 +1,35 @@
+/* Mining Container */
+.mining-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+  }
+  
+  /* Mining Progress */
+  .mining-progress {
+    margin-top: 15px;
+  }
+  
+  .mining-progress p {
+    font-size: 16px;
+    color: #343a40; /* Dark text color */
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    background-color: #e9ecef; /* Light grey background for progress bar */
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    background-color: #007bff; /* Blue color for progress bar */
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+  

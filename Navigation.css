@@ -1,0 +1,59 @@
+/* src/Navigation.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+  }
+  
+  .navigation button {
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    padding: 15px 30px;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .navigation button:hover {
+    background-color: #21a1f1;
+    transform: translateY(-2px);
+  }
+  
+  .navigation button:active {
+    background-color: #1b8bbd;
+    transform: translateY(0);
+  }
+  
